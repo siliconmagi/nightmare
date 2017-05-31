@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "d3-dsv": "^1.0.5",
+    "nightmare": "^2.10.0",
+    "tern": "^0.21.0"
+  }
+}
