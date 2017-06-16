@@ -2,6 +2,7 @@ var Nightmare = require('nightmare');
 var nightmare = Nightmare({ show: true });
 
 nightmare
+ .wait(2000)
   .goto('https://duckduckgo.com')
   .type('#search_form_input_homepage', 'github nightmare')
   .click('#search_button_homepage')
